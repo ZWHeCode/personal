@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		8DFD50831C46A0AD0083D34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD50821C46A0AD0083D34E /* main.m */; };
 		8DFD50861C46A0AD0083D34E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD50851C46A0AD0083D34E /* AppDelegate.m */; };
-		8DFD508C1C46A0AD0083D34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD508A1C46A0AD0083D34E /* Main.storyboard */; };
-		8DFD508E1C46A0AD0083D34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD508D1C46A0AD0083D34E /* Assets.xcassets */; };
-		8DFD50911C46A0AD0083D34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD508F1C46A0AD0083D34E /* LaunchScreen.storyboard */; };
 		8DFD509C1C46A0AD0083D34E /* NewsReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD509B1C46A0AD0083D34E /* NewsReaderTests.m */; };
 		8DFD50A71C46A0AD0083D34E /* NewsReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD50A61C46A0AD0083D34E /* NewsReaderUITests.m */; };
-		8DFD50C71C46A1C40083D34E /* Homepage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD50C61C46A1C40083D34E /* Homepage.m */; };
+		8DFD50D91C46B3E40083D34E /* FXBassPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD50D81C46B3E40083D34E /* FXBassPage.m */; };
+		8DFD50DC1C46B4170083D34E /* Homepage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD50DB1C46B4170083D34E /* Homepage.m */; };
+		8DFD50DE1C46B53B0083D34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD50DD1C46B53B0083D34E /* Assets.xcassets */; };
+		8DFD50E11C46B5450083D34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD50DF1C46B5450083D34E /* LaunchScreen.storyboard */; };
+		8DFD50E21C46B5450083D34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFD50E01C46B5450083D34E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		8DFD50821C46A0AD0083D34E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DFD50841C46A0AD0083D34E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DFD50851C46A0AD0083D34E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8DFD508B1C46A0AD0083D34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DFD508D1C46A0AD0083D34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
-		8DFD50901C46A0AD0083D34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DFD50921C46A0AD0083D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DFD50971C46A0AD0083D34E /* NewsReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFD509B1C46A0AD0083D34E /* NewsReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsReaderTests.m; sourceTree = "<group>"; };
@@ -49,9 +47,15 @@
 		8DFD50A21C46A0AD0083D34E /* NewsReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFD50A61C46A0AD0083D34E /* NewsReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsReaderUITests.m; sourceTree = "<group>"; };
 		8DFD50A81C46A0AD0083D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DFD50C51C46A1C40083D34E /* Homepage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Homepage.h; path = ../../Homepage.h; sourceTree = "<group>"; };
-		8DFD50C61C46A1C40083D34E /* Homepage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Homepage.m; path = ../../Homepage.m; sourceTree = "<group>"; };
 		8DFD50C91C46A9D40083D34E /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		8DFD50D71C46B3E40083D34E /* FXBassPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBassPage.h; sourceTree = "<group>"; };
+		8DFD50D81C46B3E40083D34E /* FXBassPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBassPage.m; sourceTree = "<group>"; };
+		8DFD50DA1C46B4170083D34E /* Homepage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homepage.h; sourceTree = "<group>"; };
+		8DFD50DB1C46B4170083D34E /* Homepage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Homepage.m; sourceTree = "<group>"; };
+		8DFD50DD1C46B53B0083D34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DFD50DF1C46B5450083D34E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DFD50E01C46B5450083D34E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DFD50E31C46B5720083D34E /* NewsReader-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NewsReader-PrefixHeader.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +169,7 @@
 		8DFD50B61C46A1050083D34E /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				8DFD508D1C46A0AD0083D34E /* Assets.xcassets */,
+				8DFD50DD1C46B53B0083D34E /* Assets.xcassets */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -173,8 +177,8 @@
 		8DFD50B71C46A1050083D34E /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				8DFD508A1C46A0AD0083D34E /* Main.storyboard */,
-				8DFD508F1C46A0AD0083D34E /* LaunchScreen.storyboard */,
+				8DFD50DF1C46B5450083D34E /* LaunchScreen.storyboard */,
+				8DFD50E01C46B5450083D34E /* Main.storyboard */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -234,8 +238,10 @@
 		8DFD50C01C46A1590083D34E /* Page */ = {
 			isa = PBXGroup;
 			children = (
-				8DFD50C51C46A1C40083D34E /* Homepage.h */,
-				8DFD50C61C46A1C40083D34E /* Homepage.m */,
+				8DFD50DA1C46B4170083D34E /* Homepage.h */,
+				8DFD50DB1C46B4170083D34E /* Homepage.m */,
+				8DFD50D71C46B3E40083D34E /* FXBassPage.h */,
+				8DFD50D81C46B3E40083D34E /* FXBassPage.m */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 		8DFD50C21C46A1620083D34E /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				8DFD50E31C46B5720083D34E /* NewsReader-PrefixHeader.pch */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -365,9 +372,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DFD50911C46A0AD0083D34E /* LaunchScreen.storyboard in Resources */,
-				8DFD508E1C46A0AD0083D34E /* Assets.xcassets in Resources */,
-				8DFD508C1C46A0AD0083D34E /* Main.storyboard in Resources */,
+				8DFD50E21C46B5450083D34E /* Main.storyboard in Resources */,
+				8DFD50DE1C46B53B0083D34E /* Assets.xcassets in Resources */,
+				8DFD50E11C46B5450083D34E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,9 +399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DFD50C71C46A1C40083D34E /* Homepage.m in Sources */,
 				8DFD50861C46A0AD0083D34E /* AppDelegate.m in Sources */,
 				8DFD50831C46A0AD0083D34E /* main.m in Sources */,
+				8DFD50D91C46B3E40083D34E /* FXBassPage.m in Sources */,
+				8DFD50DC1C46B4170083D34E /* Homepage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,27 +436,6 @@
 			targetProxy = 8DFD50A31C46A0AD0083D34E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8DFD508A1C46A0AD0083D34E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DFD508B1C46A0AD0083D34E /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8DFD508F1C46A0AD0083D34E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DFD50901C46A0AD0083D34E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8DFD50A91C46A0AD0083D34E /* Debug */ = {
@@ -535,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/Global/NewsReader-PrefixHeader.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzw.NewsReader;
@@ -546,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/Global/NewsReader-PrefixHeader.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzw.NewsReader;
@@ -642,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/Global/NewsReader-PrefixHeader.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzw.NewsReader;
@@ -714,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/Global/NewsReader-PrefixHeader.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzw.NewsReader;
@@ -786,6 +777,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/Global/NewsReader-PrefixHeader.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hzw.NewsReader;
