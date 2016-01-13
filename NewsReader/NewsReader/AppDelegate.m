@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Define/Defines.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
    
-    
+    BASE_ERROR_FUN(@"error");
     return YES;
 }
 
